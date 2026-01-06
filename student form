@@ -11,15 +11,16 @@
         Name:<input type="text" name="Name"><br><br>
         Email:<input type="email" name="Email"><br><br>
         Password:<input type="password" name="Password"><br><br>
-        DOB:<input type="date" name="DOB"><br><br>
+        Date of birth:<input type="date" name="DOB"><br><br>
         Year:
-        <select name="Year">
-            <option value="first">First Year</option>
-            <option value="second">Second Year</option>
-            <option value="third">Third Year</option>
-            <option value="fourth">Fourth Year</option>
+        <select name="faculty">
+            <option value ="DIT">information technology</option>
+            <option value ="DCE"> civil engineering</option>
+            <option value ="mechanical engineering"> mechanical engineering</option>
+            <option value ="computer engineering"> computer engineering</option>
+        </facilty>
         </select><br><br>
-        <input type="submit" value="Sign Up"><br>
+        <input type="submit" value="submit"><br>
         <br>
         <form>
          Gender:
@@ -31,12 +32,9 @@
         <input type="checkbox" name="hobbies" value="traveling"> Traveling
         <input type="checkbox" name="hobbies" value="sports"> Sports
         <br><br>
-        comments:<br>
-        <textarea name="comments" rows="4" cols="30"></textarea>
         </form>
 </fieldset>
 <body>
     
 </body>
 </html>
-
