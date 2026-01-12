@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rose Heart Animation</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: radial-gradient(circle, #ffb6c1, #33ff6d);
+    overflow:hidden;
+    font-family: cursive;
+}
+
+.heart{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: #ff004f;
+    transform: rotate(-45deg);
+    animation: beat 1s infinite;
+    box-shadow: 0 0 40px #ff004f;
+}
+
+.heart::before,
+.heart::after{
+    content:"";
+    position:absolute;
+    width:120px;
+    height:120px;
+    background:#ff004f;
+    border-radius:50%;
+}
+
+.heart::before{
+    top:-60px;
+    left:0;
+}
+
+.heart::after{
+    left:60px;
+    top:0;
+}
+
+@keyframes beat{
+    0%{transform: rotate(-45deg) scale(1);}
+    50%{transform: rotate(-45deg) scale(1.2);}
+    100%{transform: rotate(-45deg) scale(1);}
+}
+
+.text{
+    position:absolute;
+    top:75%;
+    color:#fff;
+    font-size:30px;
+    text-shadow: 0 0 10px #ff004f;
+}
+</style>
+</head>
+
+<body>
+
+<div class="heart"></div>
+<div class="text">❤️ YADAV KING ❤️</div>
+
+</body>
+</html>

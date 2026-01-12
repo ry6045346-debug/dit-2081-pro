@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Yadav King Profile</title>
+<style>
+    body{
+        margin:0;
+        font-family: Arial, sans-serif;
+        background:#fff;
+        text-align:center;
+    }
+    .profile{
+        padding:20px;
+    }
+    .profile img{
+        width:120px;
+        height:120px;
+        border-radius:50%;
+        border:3px solid #ddd;
+    }
+    .username{
+        font-size:24px;
+        font-weight:bold;
+        margin-top:10px;
+    }
+    .userid{
+        color:gray;
+        font-size:14px;
+    }
+    .stats{
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        margin:15px 0;
+    }
+    .stats div{
+        font-size:16px;
+    }
+    .stats span{
+        display:block;
+        font-weight:bold;
+        font-size:18px;
+    }
+    .bio{
+        margin:10px 0;
+    }
+    .bio a{
+        color:#000;
+        text-decoration:none;
+        font-weight:bold;
+    }
+    .buttons{
+        margin:15px 0;
+    }
+    .buttons button{
+        padding:8px 20px;
+        border:none;
+        background:#000;
+        color:white;
+        border-radius:5px;
+        cursor:pointer;
+    }
+    .grid{
+        display:grid;
+        grid-template-columns:repeat(3, 1fr);
+        gap:5px;
+        padding:10px;
+    }
+    .grid div{
+        background:#ccc;
+        height:150px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:20px;
+        color:white;
+    }
+</style>
+</head>
+<body>
+
+<div class="profile">
+    <img src="https://scontent.fjkr1-1.fna.fbcdn.net/v/t39.30808-6/480730412_609707908629540_2019192388331518031_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEadGfIucYZk40KofgktMCePvAnrVeae44-8CetV5p7jvhormUOHVVT5N7heqMLFAIw17eMiUcYAYjnnBS_NOYe&_nc_ohc=1z7cB5isPXkQ7kNvwFJly5C&_nc_oc=Adn4g-fUAOHw65xxhkdjJIUj41Dzrqu_xX9DbiB4z7zXiO_C7nbh2TmeP-YSRpYS4y8&_nc_zt=23&_nc_ht=scontent.fjkr1-1.fna&_nc_gid=THH7q8wJEGXtZKxJOAhC7w&oh=00_AfqGGzC4XJMp9sfz9R-zaix9DtJMZtQa1OUJxTlmt9ZTIw&oe=696A3283" alt="Profile Photo">
+    <div class="username">✵ Yadav king ♡</div>
+    <div class="userid">@rajuyadav29707</div>
+
+    <div class="stats">
+        <div><span>400</span>Following</div>
+        <div><span>4,945K</span>Followers</div>
+        <div><span>16M</span>Likes</div>
+    </div>
+
+    <div class="bio">
+        Welcome to my profile 🙏 <br>
+        <a href="#">https://www.facebook.com</a>
+    </div>
+
+    <div class="buttons">
+        <button>Subscription</button>
+    </div>
+</div>
+
+<div class="grid">
+    <div>Video 1</div>
+    <div>Video 2</div>
+    <div>Video 3</div>
+    <div>Video 4</div>
+    <div>Video 5</div>
+    <div>Video 6</div>
+</div>
+
+</body>
+</html>

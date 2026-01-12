@@ -21,7 +21,7 @@ body{
     position:relative;
     width:120px;
     height:120px;
-    background:red;
+    background:rgb(255, 0, 0);
     transform:rotate(-45deg);
     animation:beat 1s infinite;
 }
@@ -32,7 +32,7 @@ body{
     position:absolute;
     width:120px;
     height:120px;
-    background:red;
+    background:rgb(242, 2, 2);
     border-radius:50%;
 }
 
@@ -56,9 +56,14 @@ body{
 /* Floating small hearts */
 span{
     position:absolute;
-    color:pink;
+    color:rgb(192, 255, 205);
     font-size:20px;
     animation:float 3s linear infinite;
+    user-select:raju;
+    pointer-events:yadav;
+    z-index:1000;
+    
+
 }
 
 @keyframes float{
