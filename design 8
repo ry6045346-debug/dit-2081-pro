@@ -1,0 +1,59 @@
+<Html>
+<head>
+    <title>Design 8</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #00796b;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .main {
+            padding: 20px;
+        }
+        .main h2 {
+            color: #004d40;
+        }
+        .main p {
+            color: #00695c;
+            line-height: 1.5;
+        }
+        .footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Bio Data</h1>
+    </div>
+    <div class="main">
+        <h2>Introduction</h2>
+        <p>This is a sample paragraph to demonstrate the styling by rajkumar </p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Design 8. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#" style="color: white; margin: 0 10px;">Facebook</a>
+            <div>
+            <a href="#" style="color: white; margin: 0 10px;">Instagram</a>
+            </div>
+            <a href="#" style="color: white; margin: 0 10px;">Twitter</a>
+            <a href="#" style="color: white; margin: 0 10px;">LinkedIn</a>
+    </div>

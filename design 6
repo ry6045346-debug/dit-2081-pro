@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>rajkumar yadav - Profile</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#fffefe;
+}
+
+/* Navbar */
+.navbar{
+    background:#078ff7;
+    padding:12px;
+    display:flex;
+    justify-content:center;
+}
+.navbar a{
+    color:rgb(235, 6, 6);
+    text-decoration:none;
+    margin:0 15px;
+    font-size:16px;
+}
+.navbar a:hover{
+    text-decoration:underline;
+}
+
+/* Profile Section */
+.profile{
+    background:#13ff07;
+    padding:20px;
+    text-align:center;
+}
+.profile img{
+    width:100%;
+    max-width:400px;
+    border-radius:5px;
+}
+.profile h1{
+    margin:15px 0 5px;
+    color:rgb(247, 14, 14);
+}
+.profile h3{
+    margin:0;
+    color:rgb(4, 8, 249);
+    font-weight:normal;
+}
+
+/* Content */
+.content{
+    padding:20px;
+    background:#f5464c;
+}
+.content h2{
+    color:rgb(24, 2, 2);
+    margin-bottom:10px;
+}
+.content p{
+    color:rgb(27, 8, 8);
+    line-height:1.6;
+}
+</style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html">Home</a>
+           </nav>
+    <!-- Services -->
+    <div class="services">
+        <p>Web Application Development</p>
+        <p>Mobile Application Development</p>
+        <p>Website Application Development</p>
+        <p>CMS Application Development</p>
+        <p>API Development</p>
+     </div>
+    <div>
+         <a href ="contact.html">address</a>
+     <P>Duhabi,10</P>
+    </div>
+    <div>
+            <a href ="contact.html">phone number</a>
+        <P>+9779810218755</P>
+    </div>
+    <div>
+            <a href ="contact.html">email</a>
+        <P>rajkumaryadav123@gmail.com</P>
+    </div>
+    <div>
+            <a href ="contact.html">social media</a>
+        <P>Facebook ,Tiktok ,Instagram, YouTube, Game, etc</P>
+    </div>
+    <div>
+            <a href ="contact.html">freelance work</a>
+        <P>Student</P>
+    </div>
+    <div>
+            <a href ="contact.html">hobbies</a>
+        <P>Playing games, Watching movies, Listening to music, Reading books, Traveling, Cooking, Sports, Photography, Art and Craft, Gardening, Fitness and Exercise</P>
+    </div>
+    <div>
+            <a href ="contact.html">languages known</a>
+        <P>Nepali, Hindi, Maithili</P>
+    </div>
+    <div>
+            <a href ="contact.html">technical skills</a>
+        <P>HTML, CSS, JavaScript, Python, Java, C++, SQL, Git, React, Node.js, Django, Flask, Android Development, iOS Development</P>
+    </div>
+    <div>
+            <a href ="contact.html">personal projects</a>
+        <P>Portfolio Website, To-Do List App, Weather App, Blog Platform, E-commerce Website, Chat Application, Expense Tracker, Recipe App, Fitness Tracker, Social Media Dashboard</P>
+    </div>
+    <div>
+            <a href ="contact.html">achievements</a>
+        <P>Dean's List, Coding Competition Winner, Scholarship Recipient, Published Research Paper, Volunteer of the Year, Hackathon Finalist, Leadership Award, Academic Excellence Award, Community Service Recognition, Innovation Award</P> 
+        </div>
+        <div>
+            
+        </div>
+<!-- Profile -->
+<div class="profile">
+    <img src="https://scontent.fjkr1-1.fna.fbcdn.net/v/t39.30808-6/480730412_609707908629540_2019192388331518031_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEadGfIucYZk40KofgktMCePvAnrVeae44-8CetV5p7jvhormUOHVVT5N7heqMLFAIw17eMiUcYAYjnnBS_NOYe&_nc_ohc=WCZyPgF_mI8Q7kNvwH1dYv6&_nc_oc=Adkld7MBRQJFIMAfTU8kAeb0fi8TBGVSsJZ207HWh3LCRTpNSe8HtZa20Y0IdRsIYqQ&_nc_zt=23&_nc_ht=scontent.fjkr1-1.fna&_nc_gid=R49RZCdukR91vxHMyfimHw&oh=00_AfrKYxEZWMbv_DAclSqX1i_pYCpyCfcP4aDAxwUQRSXT5Q&oe=69728C03" alt="rajkumar yadav">
+    <h1>rajkumar yadav</h1>
+    <h3>App Developer</h3>
+</div>
+
+<!-- Education -->
+<div class="content">
+    <h2>Education</h2>
+    <p><b>student:</b>Information Technology (IT)</p>
+    <p><b>College:</b>Mahendra Memorial polytechnic </p>
+</div>
+
+</body>
+</html>
