@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoration of Animation</title>
+    <style>
+        .animation {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            animation: move 2s infinite;
+        }
+
+        @keyframes move {
+            0% { left: 0; top: 0; }
+            25% { left: 200px; top: 0; }
+            50% { left: 200px; top: 200px; }
+            75% { left: 0; top: 200px; }
+            100% { left: 0; top: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="animation"></div>
+</body>
+<h1>Animation Decoration Example</h1>
+<p>This example demonstrates a simple animation of a red square moving in a square path. The animation is created using CSS keyframes, and the square will continuously move around the defined path.</p>
+</html>
