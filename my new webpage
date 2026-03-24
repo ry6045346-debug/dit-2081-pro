@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bio Data</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        .container {
+            background-color: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        img {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="https://scontent.fjkr1-1.fna.fbcdn.net/v/t39.30808-6/470203415_559036740363324_276558445329012674_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=1TCJ23YTQn8Q7kNvwGx3fBF&_nc_oc=AdpwLKPV6SLxbaAQ-tsTHkpxu8zyzR-KClymjEDoxie1TrAjayIt9VYB3IXHdLKrEks&_nc_zt=23&_nc_ht=scontent.fjkr1-1.fna&_nc_gid=Itao32Zq75OITQx4TKU1pg&_nc_ss=7a32e&oh=00_AfyuvOMkz9-L7PxYZExLh7d-cDwLgDoHFd63tUZwqngMtw&oe=69C850DF" alt="Profile Photo">
+
+        <h1>raju Yadav</h1>
+<article>       <p><b>Username:</b> Raju Yadav</p> 
+        <p><b>Age:</b> 18</p>
+        <p><b>Address:</b>Biratnagar, Nepal</p><map name="map">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.facebook.com/raju.yadav.568">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="tel:9810218755">
+            <area shape="rect" coords="337,300,400,350" alt="Email" href="mailto:ry6045623@gmail.com">
+        <p><b>Education:</b> Polytechnic Student</p>
+        <p><b>Skills:</b> HTML, CSS, TikTok Growth</p>
+        <p><b>Hobbies:</b> Web Designing, Social Media</p>
+        <p><b>Contact:9810218755</b>
+            <p><b>Email:ry6045623@gmail.com</b>
+                <p><b>Instagram:Raju_yadav_</b></p>
+                <p><b>Facebook:Raju yadav</b></p>
+                <p><b>LinkedIn:Raju Yadav Links</b></p>
+                <p><b>TikTok:Yadav King</b></p>
+                <article>
+                    <h2>About Me</h2>
+                    <p>I am a passionate web designer with a love for creating visually appealing and user-friendly websites. I have experience in HTML, CSS, and TikTok growth strategies. I enjoy exploring new technologies and staying up-to-date with the latest trends in web design.</p>
+                </article>
+<areal>                   <h2>My Goals</h2>
+                    <p>My goal is to become a successful web designer and social media strategist. I aim to create impactful websites that not only look great but also provide an excellent user experience. I also want to grow my presence on social media platforms and share my knowledge with others.</p>
+                </areal>
+                <div class="profile">
+    <img src="https://scontent.fjkr1-1.fna.fbcdn.net/v/t39.30808-6/480730412_609707908629540_2019192388331518031_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=2a1932&_nc_eui2=AeEadGfIucYZk40KofgktMCePvAnrVeae44-8CetV5p7jvhormUOHVVT5N7heqMLFAIw17eMiUcYAYjnnBS_NOYe&_nc_ohc=nxqW2TwgmlcQ7kNvwGgdiIm&_nc_oc=Adke-usst9UoAm-KO5cbG0Kcyp2cvXej_1MrUpVGuSRqGjSzjgI2jezyKgCf4OL76i8&_nc_zt=23&_nc_ht=scontent.fjkr1-1.fna&_nc_gid=6XVuqCakH0ph_uER6EG1TA&_nc_ss=8&oh=00_Afw0deZ5S5NV3wXFYHSIELoyH6UJSFucANXsnl-9eXLnVQ&oe=69B9F543" alt="Profile Photo">
+    <div class="username">✵ Yadav king ♡</div>
+    <style>
+        body{
+            font-family:Arial, sans-serif;
+            background-color:#f2f2f2;
+            text-align:center;
+        }        
+
+        <p>Hello! I am raju. I love web designing and social media.</p>
+    </div>
+
+</body>
+</html>
